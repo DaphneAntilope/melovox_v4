@@ -320,15 +320,21 @@
     display: block;
     position: absolute;
     background: #000;
-    width: 250px;
+    width: 200px;
     height: 200px;
     line-height: 200px;
     font-size: 5em;
     text-align: center;
     color: #FFF;
-    opacity: 0.95;
-    border-radius: 10px;
+    opacity: 1;
+    border-radius: 100%;
     transition: transform 1s;
+  }
+
+  .item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
   }
   
   .a {
@@ -370,8 +376,6 @@
   
   .next, .prev {
     color: #444;
-    position: absolute;
-    top: 100px;
     padding: 1em 2em;
     cursor: pointer;
     background: #CCC;
@@ -379,14 +383,21 @@
     border-top: 1px solid #FFF;
     box-shadow: 0 5px 0 #999;
     transition: box-shadow 0.1s, top 0.1s;
+    position: relative;
   }
   .next:hover, .prev:hover { color: #000; }
-  .next:active, .prev:active {
-    top: 50%;
+.prev:active {
+    top: -51%;
     box-shadow: 0 1px 0 #999;
   }
-  .next { right: 5em; top: 50%; }
-  .prev { left: 5em; top: 50%; }
+
+  .next:active {
+    top: -170.5px;
+    box-shadow: 0 1px 0 #999;
+  }
+
+  .next { right: 33em; top: -170.5px; }
+  .prev { left: 33em; top: -51%; }
 
 /* --------- Section 3 : A propos-------- */
 #bg_a_propos{

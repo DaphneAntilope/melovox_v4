@@ -140,7 +140,7 @@
 <div class="container">
   <div class="carousel">
     <div class="a">
-      <div class="item">A</div>
+      <div class="item"><img src="visuel\icons\users icons\alexia.png" alt=""></div>
     </div>
     <div class="b">
       <div class="item">B</div>
@@ -213,6 +213,6 @@
  <!-- <script src="scontent_dynamique\sliderV2.js"></script> -->
 
   <!-- Inclusion du fichier JavaScript pour le slider splide -->
-  <script src="content_dynamique\carrousel.js"></script>
+  <script src="content_dynamique/carrousel.js"></script>
 
 <?php require "content_dynamique/footer.php"; ?>

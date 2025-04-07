@@ -57,6 +57,9 @@
     <link rel="stylesheet" href="path/to/owl.carousel.min.css">
     <link rel="stylesheet" href="path/to/owl.theme.default.min.css">
 
+    <script src="node_modules\jquery\dist\jquery.js"></script>
+    
+
     <!--meta typos  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
